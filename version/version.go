@@ -31,7 +31,7 @@ type ServerVersioner interface {
 	ServerVersion() (*version.Info, error)
 }
 
-var minimumVersion = "v1.11.0"
+var minimumVersion = "v1.13.10"
 
 // CheckMinimumVersion checks if the currently installed version of
 // Kubernetes is compatible with the minimum version required.
